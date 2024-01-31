@@ -1,25 +1,15 @@
+<?php $pageName = 'Citations';?>
+
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Citations - INFO 2300</title>
-
-  <link rel="stylesheet" type="text/css" href="styles/site.css">
-</head>
+<?php include ('includes/meta.php') ?>
 
 <body>
   <header>
     <h1 id="title">Citations - INFO 2300</h1>
 
-    <nav id="menu">
-      <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="citations.php">Citations</a></li>
-      </ul>
-    </nav>
+    <?php include ('includes/nav.php') ?>
   </header>
 
   <main>
@@ -55,9 +45,9 @@
 
   </main>
 
-  <footer>
-    <p>Contact Information: <a href="mailto:info2300@cornell.edu">info2300@cornell.edu</a>.</p>
-  </footer>
+  <?php include 'includes/footer.php'; ?>
+
+  
 </body>
 
 </html>
